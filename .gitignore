@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data and generated artifacts
+data/raw/
+data/processed/*.npy
+data/processed/cache_*/
+outputs/checkpoints/
+outputs/metrics/
+outputs/plots/
+outputs/reports/
+*.pth
+*.pt
+*.ckpt
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data folders
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+
+# Large binaries
+*.h5
+*.npz
+*.npy
+*.pkl
+*.zip
+*.tar.gz
+
+# Model checkpoints
+*.pt
+*.ckpt
+
+# Jupyter and system files
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+
